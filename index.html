@@ -1,88 +1,40 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="extstyles.css">
-  <style>
-    body {
-  margin: 0;
-  font-size: 28px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.header {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-}
-
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-#navbar a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-  </style>
-</head>
-<body>
-
-<div class="header">
-  <h2>Scroll Down</h2>
-  <p>Scroll down to see the sticky effect.</p>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>IWT Labs</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+<div id=head style="font-size:40px; font-family:Comic sans MS";>
+  IWT Lab<br /><span id=headin>MCA Deptartment</span>
 </div>
-
-<div id="navbar">
-  <a class="active" href="javascript:void(0)">Home</a>
-  <a href="javascript:void(0)">News</a>
-  <a href="javascript:void(0)">Contact</a>
+<div class="topnav" id="myTopnav" style="font-family:comic sans ms;">
+  <a href="iwtlabs.html" class="active">Home</a>
+  <a href="syllb.html">Syllabus</a>
+  <a href="labmanual.html">Lab Manuals</a>
+  <a href="labgrp.html">Lab Groups</a>
+  <a href="assignment.html">Assignment</a>
+  <a href="attendance.html">Attendance</a>
 </div>
+<div class="grid-container" style="font-style:Comic, sans-serif;"><!--comic sans msfont-family:Arial, Helvetica, sans-serif-->
 
+  <div class="left" style="background-color:#f1f1f1;"></div>
+  <div class="middle" style="padding:40px; font-size:15px; margin-left:20px; margin-right:20px; font-size:17px; font-family:Helvetica;">
+    <br>
+    Subject code: MCA 201
+    <br>
+    Course coordinator: <p></p>
+<img width="135" height="125" src="munish sir.jpg" alt="Dr. Munish Mehta">
+<br>
+    <a href="http://nitkkr.ac.in/comp_faculty_details.php?idd=891">Dr. Munish Mehta</a>
+    <br>
+    This course is for introducing students to basic and advanced concepts of Web technologies like html, css, javascript, reactjs etc. This course is designed for MCA 4th semester students. Every topic is given step-by-step so that you can learn it in a very easy way. Learning HTML to design the structure or layout of your website and style it with CSS, with JavaScript you will be able to create your own interactive and dynamic website.
+  </div>
+  <div class="right" style="background-color:#f1f1f1;"></div>
 
-<script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
-
-</body>
+<footer></footer>
+</div>
+  </body>
 </html>
