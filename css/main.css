@@ -4,7 +4,7 @@ html,body {
   margin: 0;
 }
 #head{
-  background-color: white;/*#ffb8b8;/*#9966ff;*/
+  background-color: black;/*white;/*#ffb8b8;/*#9966ff;*/
   color: #374E6D;
   font-family: "Lucida Console";/*"Papyrus";*/
   padding-left: 15px;
@@ -19,7 +19,7 @@ html,body {
 }
 .topnav {
   overflow: hidden;
-  background-color: #3D84A2; /*#b30059;/*#220066;*/
+  background-color: black;/*#3D84A2; /*#b30059;/*#220066;*/
 }
 
 .topnav a {
