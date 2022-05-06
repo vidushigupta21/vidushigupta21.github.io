@@ -89,9 +89,9 @@ footer {
 .lm,.lg {
   display: inline-block;
   border-radius: 4px;
-  background-color: #A4C073;/*#804d66;/*#9e2e66*/
+  background-color:#374E6D;/* #A4C073;/*#804d66;/*#9e2e66*/
   border: none;
-  color:#374E6D;/* #FFFFFF;*/
+  color: #FFFFFF;
   text-align: center;
   font-size: 18px;
   padding: 20px;
